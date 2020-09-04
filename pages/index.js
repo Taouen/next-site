@@ -1,65 +1,75 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import styles from '../styles/style.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tanner Wiltshire | Home</title>
+        <link type="text/css" rel="stylesheet" href="style.css" />
+        <link
+          href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap"
+          rel="stylesheet"
+        />
       </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+      <div className={styles.wrapper}>
+        <header>
+          <a href="index.html">
+            <h2>Tanner Wiltshire</h2>
           </a>
+          <nav>
+            <a className={styles.link} href="portfolio.html">
+              Portfolio
+            </a>
+            <a
+              className={styles.link}
+              href="https://medium.com/@tannerwiltshire"
+              target="_blank"
+            >
+              Blog
+            </a>
+          </nav>
+        </header>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+        <main>
+          <div className="main">
+            <div className="content">
+              <h1>Hi, I'm Tanner.</h1>
+              <p>
+                I like to build things and solve problems, so I am working to
+                become a software developer.
+              </p>
+              <p>
+                I don’t have a lot of experience yet, but I have a passion for
+                learning and enjoy being challenged. Currently, I am developing
+                skills with HTML, CSS, and JavaScript.
+              </p>
+              <p>This webpage will evolve with me as I grow in the process.</p>
+            </div>
+            <div className="social-media">
+              <a href="https://www.facebook.com/tanner.wiltshire">
+                <img src="images/facebook.png" alt="facebook" />
+              </a>
+              <a href="https://twitter.com/tannerwiltshire">
+                <img src="images/twitter.png" alt="twitter" />
+              </a>
+              <a href="https://github.com/Taouen">
+                <img src="images/github.png" alt="github" />
+              </a>
+              <a href="https://www.linkedin.com/in/tanner-wiltshire-032133199/">
+                <img src="images/linkedin.png" alt="linkedin" />
+              </a>
+            </div>
+          </div>
+          <div className="photo"></div>
+        </main>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
+        <footer>
+          <p>© 2020 Tanner Wiltshire</p>
+        </footer>
+      </div>
+    </>
+  );
 }
