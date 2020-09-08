@@ -1,0 +1,24 @@
+:root {
+  --black: #222;
+  --blue: #759fbc;
+  --darkblue: #1f5673;
+  --green: #227044;
+  --lightblue: #90c3c8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+}
+
+a {
+  text-decoration: none;
+}

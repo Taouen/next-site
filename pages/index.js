@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Header from '../components/header.js';
 import styles from '../styles/style.module.css';
 
 export default function Home() {
@@ -15,23 +16,7 @@ export default function Home() {
         />
       </Head>
       <div className={styles.wrapper}>
-        <header>
-          <a href="index.html">
-            <h2>Tanner Wiltshire</h2>
-          </a>
-          <nav>
-            <a className={styles.link} href="portfolio.html">
-              Portfolio
-            </a>
-            <a
-              className={styles.link}
-              href="https://medium.com/@tannerwiltshire"
-              target="_blank"
-            >
-              Blog
-            </a>
-          </nav>
-        </header>
+        <Header />
 
         <main>
           <div className="main">
