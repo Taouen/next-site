@@ -1,23 +1,10 @@
 import Link from 'next/link';
+import styles from '../styles/header.module.css';
 
-const Header = () => {
-  <header className="header">
-    <a href="index.html">
-      <h2>Tanner Wiltshire</h2>
-    </a>
-    <nav>
-      <a className={styles.link} href="portfolio.html">
-        Portfolio
-      </a>
-      <a
-        className={styles.link}
-        href="https://medium.com/@tannerwiltshire"
-        target="_blank"
-      >
-        Blog
-      </a>
-    </nav>
-  </header>;
-};
+const Header = () => (
+  <header>
+    <h1>Tanner Wiltshire</h1>
+  </header>
+);
 
 export default Header;
