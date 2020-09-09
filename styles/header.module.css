@@ -1,2 +1,17 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 0;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.navigation li:last-of-type {
+  margin-right: 0;
 }
