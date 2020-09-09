@@ -1,5 +1,6 @@
 import Head from 'next/head';
-import Header from '../components/header.js';
+import Header from '../components/Header.js';
+import Layout from '../components/Layout.js';
 import styles from '../styles/style.module.css';
 
 export default function Home() {
@@ -16,6 +17,9 @@ export default function Home() {
         />
       </Head>
       <Header />
+      <Layout>
+        <p>this is the child of layout</p>
+      </Layout>
     </>
   );
 }
