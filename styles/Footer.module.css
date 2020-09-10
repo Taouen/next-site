@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5rem 0;
+  width: 100%;
+}
+
+.footer ul {
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+
+@media (min-width: 992px) {
+  .footer {
+    width: 50%;
+  }
+}

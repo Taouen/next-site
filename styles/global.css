@@ -18,14 +18,11 @@ html {
   font-family: 'Source Code Pro', monospace;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-
+a,
 a:visited {
   color: white;
+}
+
+a:hover {
+  color: var(--green);
 }
