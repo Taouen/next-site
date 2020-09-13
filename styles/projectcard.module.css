@@ -1,5 +1,12 @@
 .card {
   display: flex;
-  width: 80%;
-  border: 1px solid red;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 2rem;
+}
+
+.projectImage {
+  object-fit: contain;
+  width: 100%;
+  margin-bottom: 1rem;
 }
