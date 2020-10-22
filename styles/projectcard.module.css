@@ -2,11 +2,15 @@
   display: flex;
   flex-direction: column;
   width: 90%;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .projectImage {
   object-fit: contain;
   width: 100%;
   margin-bottom: 1rem;
+}
+
+.heading {
+  margin-bottom: 2rem;
 }
