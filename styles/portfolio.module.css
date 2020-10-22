@@ -1,4 +1,8 @@
 .projects {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+
+.heading {
+  margin-bottom: 3.5rem;
 }
