@@ -15,7 +15,7 @@ class Layout extends React.Component {
           />
           <title>Tanner Wiltshire | Home</title>
           <html lang="en-us" />
-          <link type="text/css" rel="stylesheet" href="style.css" />
+
           <link
             href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
             rel="stylesheet"

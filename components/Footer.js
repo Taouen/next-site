@@ -7,7 +7,7 @@ const Footer = () => (
     <ul>
       {socialMedia.map((item) => {
         return (
-          <li>
+          <li key={item.name}>
             <Link href={item.url}>
               <a>{item.name}</a>
             </Link>
