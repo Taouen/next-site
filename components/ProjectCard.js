@@ -1,15 +1,23 @@
 import Link from 'next/link';
 import styles from '../styles/projectcard.module.css';
 
-export default function ProjectCard(props) {
+export default function ProjectCard({ github, title, desc, url }) {
   return (
     <div className={styles.card}>
-      <h2 className={styles.heading}>{props.title}</h2>
+      <h2 className={styles.heading}>{title}</h2>
 
-      <p>{props.desc}</p>
-      <Link href={props.github}>
-        <a>Check out the code on Github</a>
-      </Link>
+      <p>{desc}</p>
+
+      {url && (
+        <Link href={url}>
+          <a>Visit the site</a>
+        </Link>
+      )}
+      {github && (
+        <Link href={github}>
+          <a>Check out the code on Github</a>
+        </Link>
+      )}
     </div>
   );
 }

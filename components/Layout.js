@@ -23,7 +23,7 @@ class Layout extends React.Component {
         </Head>
         <div className={styles.container}>
           <Header />
-          {this.props.children}
+          <main className={styles.main}>{this.props.children}</main>
           <Footer />
         </div>
       </>
