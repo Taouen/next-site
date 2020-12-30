@@ -11,6 +11,7 @@ export default function Portfolio() {
           desc="Website for a small business run by an esthetician. Built with Next.js and TailwindCSS, using content from Contentful CMS."
           url="http://www.brettondoesnails.com"
           title="brettondoesnails.com"
+          github="https://github.com/Taouen/bretton-does-nails"
         />
         <ProjectCard
           desc="A side project created for users to choose meals for a fictional weekly meal kit service."

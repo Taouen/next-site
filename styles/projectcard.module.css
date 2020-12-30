@@ -14,3 +14,22 @@
 .heading {
   margin-bottom: 2rem;
 }
+
+.projectCardLinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.marginRight4 {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 992px) {
+  .projectCardLinks {
+    flex-direction: row;
+  }
+
+  .marginRight4 {
+    margin-right: 2rem;
+  }
+}
