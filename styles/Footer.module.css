@@ -2,8 +2,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-bottom: 2rem;
-  /* margin-top: 15rem; */
 }
 
 .footer ul {
@@ -17,16 +15,4 @@
 
 .footer li:last-of-type {
   margin-right: 0;
-}
-
-@media (min-width: 576px) {
-  .footer {
-    /* margin: 5rem 0; */
-  }
-}
-
-@media (min-width: 992px) {
-  .footer {
-    /* margin-top: 15rem; */
-  }
 }
