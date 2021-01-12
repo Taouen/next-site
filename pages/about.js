@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Layout from '../components/Layout.js';
 import Image from 'next/image';
+import styles from '../styles/about.module.css';
 
 function About() {
   return (
@@ -11,13 +12,15 @@ function About() {
 
       <Layout>
         <h1>I solve problems by building things.</h1>
-        {/* <Image
-          src="/images/me.png"
-          alt="Tanner Wiltshire"
-          width={300}
-          height={300}
-          priority="true"
-        /> */}
+        <div className={styles.imageContainer}>
+          <Image
+            src="/images/me.png"
+            alt="Tanner Wiltshire"
+            width={350}
+            height={350}
+            priority="true"
+          />
+        </div>
         <p>Here's an example.</p>
         <p>
           I used to work on overnight visual merchandising projects for a retail
