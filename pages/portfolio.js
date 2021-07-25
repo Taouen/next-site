@@ -13,6 +13,11 @@ export default function Portfolio() {
         <h1 className={styles.heading}>Projects</h1>
         <div className={styles.projects}>
           <ProjectCard
+            desc="Discord bot for calculating hypergeometric probability"
+            github="https://github.com/Taouen/the-grand-calcutron"
+            title="The Grand Calcutron"
+          />
+          <ProjectCard
             desc="Ongoing hobby project. A tool to aid Magic: The Gathering players determine what cards may be in their opponent's hand"
             url="http://mtgasniffer.tannerwiltshire.com"
             github="https://github.com/Taouen/snifferMtga"
