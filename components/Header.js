@@ -12,7 +12,7 @@ const pages = [
   },
   {
     name: 'Blog',
-    link: 'https://medium.com/@tannerwiltshire',
+    link: 'https://blog.tannerwiltshire.com',
   },
   {
     name: 'Portfolio',
