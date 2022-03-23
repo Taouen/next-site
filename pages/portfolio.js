@@ -13,6 +13,12 @@ export default function Portfolio() {
         <h1 className={styles.heading}>Projects</h1>
         <div className={styles.projects}>
           <ProjectCard
+            desc="Website for a fantasy pool for the show Survivor. Built using Next.js, Tailwind CSS, and Sanity CMS"
+            url="https://survivorpool.tannerwiltshire.com"
+            github="https://github.com/Taouen/survivorPool"
+            title="Survivor Fantasy Pool"
+          />
+          <ProjectCard
             desc="Discord bot for calculating hypergeometric probability"
             github="https://github.com/Taouen/the-grand-calcutron"
             title="The Grand Calcutron"
