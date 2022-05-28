@@ -2,6 +2,8 @@ import Link from 'next/link';
 import styles from '../styles/Footer.module.css';
 import socialMedia from '../socialMedia';
 
+const year = new Date();
+
 const Footer = () => (
   <footer className={styles.footer}>
     <ul>
@@ -15,7 +17,7 @@ const Footer = () => (
         );
       })}
     </ul>
-    © 2020 Tanner Wiltshire
+    © {year.getFullYear()} Tanner Wiltshire
   </footer>
 );
 
