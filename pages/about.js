@@ -49,9 +49,10 @@ function About() {
         </p>
 
         <p>
-          I live with my wife and dog in Winnipeg, Manitoba. I enjoy games (both
-          tabletop and video varieties), fantasy novels, Star Wars, and Norse
-          Mythology.
+          I live with my wife, 1 year old daughter, and dog in Winnipeg,
+          Manitoba, Canada. I am an avid Magic: The Gathering player, and I
+          enjoy games of any sort. I'm a fan of fantasy novels, Star Wars, and
+          Norse Mythology.
         </p>
       </Layout>
     </>
