@@ -12,12 +12,14 @@ export default function Portfolio() {
       <Layout>
         <h1 className={styles.heading}>Projects</h1>
         <div className={styles.projects}>
+          {/* Free API Token for the AI expired.
+          
           <ProjectCard
             desc="Chat app with an AI powered by OpenAI. Built with Next.js and Tailwind CSS."
             url="https://chatwithai.tannerwiltshire.com"
             github="https://github.com/Taouen/shopify-frontend-assessment"
             title="AI Chat"
-          />
+          /> */}
           <ProjectCard
             desc="Website for a fantasy pool for the show Survivor. Built using Next.js, Tailwind CSS, and Sanity CMS"
             url="https://survivorpool.tannerwiltshire.com"
