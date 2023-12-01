@@ -38,7 +38,7 @@ function About() {
           built in. The user enters what fixture and items, and not only is the
           math done for you, you get a printable wireframe for the fixture with
           measurements indicated on it. That tool is now used by merchandising
-          specialists across the country, as it saves up to 4-6 man hours per
+          specialists across the country, as it saves up to 4-6 people hours per
           overnight.
         </p>
 
@@ -49,7 +49,7 @@ function About() {
         </p>
 
         <p>
-          I live with my wife, 1 year old daughter, and dog in Winnipeg,
+          I live with my wife, 2 year old daughter, and dog in Winnipeg,
           Manitoba, Canada. I am an avid Magic: The Gathering player, and I
           enjoy games of any sort. I'm a fan of fantasy novels, Star Wars, and
           Norse Mythology.

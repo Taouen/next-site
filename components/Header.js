@@ -15,8 +15,8 @@ const pages = [
     link: 'https://blog.tannerwiltshire.com',
   },
   {
-    name: 'Portfolio',
-    link: '/portfolio',
+    name: 'Projects',
+    link: '/projects',
   },
 ];
 
