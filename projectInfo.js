@@ -7,7 +7,7 @@ const projects = [
     active: true,
   },
   {
-    desc: 'Website for a fantasy pool for the show Survivor. Built using Next.js, Tailwind CSS, and Sanity CMS',
+    desc: 'Website for a fantasy pool for the show Survivor. Built using Next.js, Tailwind CSS, and Sanity CMS.',
     url: 'https://survivorpool.tannerwiltshire.com',
     github: 'https://github.com/Taouen/survivorPool',
     title: 'Survivor Fantasy Pool',
