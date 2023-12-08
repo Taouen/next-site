@@ -1,5 +1,6 @@
 import Layout from '../components/Layout';
 import ProjectCard from '../components/ProjectCard';
+import projects from '../projectInfo.js';
 import styles from '../styles/portfolio.module.css';
 import Head from 'next/head';
 
@@ -12,42 +13,20 @@ export default function Portfolio() {
       <Layout>
         <h1 className={styles.heading}>Projects</h1>
         <div className={styles.projects}>
-          {/* Free API Token for the AI expired.
-          
-          <ProjectCard
-            desc="Chat app with an AI powered by OpenAI. Built with Next.js and Tailwind CSS."
-            url="https://chatwithai.tannerwiltshire.com"
-            github="https://github.com/Taouen/shopify-frontend-assessment"
-            title="AI Chat"
-          /> */}
-          <ProjectCard
-            desc="Website for a fantasy pool for the show Survivor. Built using Next.js, Tailwind CSS, and Sanity CMS"
-            url="https://survivorpool.tannerwiltshire.com"
-            github="https://github.com/Taouen/survivorPool"
-            title="Survivor Fantasy Pool"
-          />
-          <ProjectCard
-            desc="Discord bot for calculating hypergeometric probability"
-            github="https://github.com/Taouen/the-grand-calcutron"
-            title="The Grand Calcutron"
-          />
-          <ProjectCard
-            desc="Ongoing hobby project. A tool to aid Magic: The Gathering players determine what cards may be in their opponent's hand"
-            url="http://mtgasniffer.tannerwiltshire.com"
-            github="https://github.com/Taouen/snifferMtga"
-            title="Magic: The Gathering Hand Sniffer"
-          />
-          <ProjectCard
-            desc="Website for a small business run by an esthetician. Built with Next.js and TailwindCSS, using content from Contentful CMS."
-            url="http://www.brettondoesnails.com"
-            title="brettondoesnails.com"
-            github="https://github.com/Taouen/bretton-does-nails"
-          />
-          <ProjectCard
-            desc="A side project created for users to choose meals for a fictional weekly meal kit service."
-            github="https://github.com/Taouen/gobble"
-            title="Gobble"
-          />
+          {projects
+            .filter((project) => project.active)
+            .map((project) => {
+              const { github, url, desc, title } = project;
+              return (
+                <ProjectCard
+                  key={project.title}
+                  github={github}
+                  desc={desc}
+                  title={title}
+                  url={url}
+                />
+              );
+            })}
         </div>
       </Layout>
     </>
