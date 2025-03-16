@@ -4,7 +4,7 @@ const projects = [
     url: 'https://chatwithai.tannerwiltshire.com',
     github: 'https://github.com/Taouen/shopify-frontend-assessment',
     title: 'AI Chat',
-    active: true,
+    active: false, // Need to update project with new Open AI API
   },
   {
     desc: 'Website for a fantasy pool for the show Survivor. Built using Next.js, Tailwind CSS, and Sanity CMS.',

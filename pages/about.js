@@ -24,22 +24,22 @@ function About() {
         <p>Here's an example.</p>
         <p>
           I used to work on overnight visual merchandising projects for a retail
-          store. The company had a mathematical formula that provided the
-          spacing for items on a fixture.
+          store, where the company had a mathematical formula to determine item
+          spacing on fixtures.
         </p>
         <p>
-          The problem: it takes time to manually measure the fixture and items,
-          convert the fractions from the tape measure to decimals, do the math,
-          then convert it back to fractions so you can measure it out on the
-          fixture.
+          The challenge: Manually measuring each fixture and item, converting
+          fractions from a tape measure to decimals, performing the
+          calculations, and then converting the results back to fractions was
+          time-consuming and subject to human error.
         </p>
         <p>
-          The solution: I built a tool that has all the most common measurements
-          built in. The user enters what fixture and items, and not only is the
-          math done for you, you get a printable wireframe for the fixture with
-          measurements indicated on it. That tool is now used by merchandising
-          specialists across the country, as it saves up to 4-6 people hours per
-          overnight.
+          The solution: I built a tool with common measurements preloaded. Users
+          simply selected the fixture and items, and the tool handled the
+          calculations automatically — providing a printable wireframe labelled
+          with measurements. While the tool is now obsolete, it was used by
+          visual merchandising teams nationwide for six years, saving 4–6 people
+          hours per merchandising change.
         </p>
 
         <p>
@@ -49,10 +49,10 @@ function About() {
         </p>
 
         <p>
-          I live with my wife, 2 year old daughter, and dog in Winnipeg,
-          Manitoba, Canada. I am an avid Magic: The Gathering player, and I
-          enjoy games of any sort. I'm a fan of fantasy novels, Star Wars, and
-          Norse Mythology.
+          I live with my wife, two children, and dog in Winnipeg, Manitoba,
+          Canada. I'm a fan of fantasy novels, Star Wars, and science in
+          general. My hobbies include playing Ultimate Frisbee, 3D printing, and
+          playing Magic: The Gathering. I also enjoy games of any kind.
         </p>
       </Layout>
     </>
